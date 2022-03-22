@@ -1,3 +1,3 @@
-![Swift](https://github.com/janodev/myteamwork/workflows/Swift/badge.svg?branch=main)
+[![Swift](https://github.com/janodevorg/MyTeamwork/actions/workflows/swift.yml/badge.svg)](https://github.com/janodevorg/MyTeamwork/actions/workflows/swift.yml)
 
-Sample Teamwork client for the OAuth2 example application.
+Example OAuth client for Teamwork.com
