@@ -19,7 +19,7 @@ let package = Package(
         .package(url: "git@github.com:janodevorg/Keychain.git", branch: "main"),
         .package(url: "git@github.com:janodevorg/Kit.git", branch: "main"),
         .package(url: "git@github.com:janodevorg/OAuth2.git", branch: "main"),
-        .package(url: "git@github.com:apple/swift-docc-plugin.git", branch: "main")
+        .package(url: "git@github.com:apple/swift-docc-plugin.git", from: "1.0.0")
     ],
     targets: [
         .target(
