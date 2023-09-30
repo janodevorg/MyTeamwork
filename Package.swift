@@ -7,8 +7,7 @@ let package = Package(
         .iOS(.v15)
     ],
     products: [
-        .library(name: "MyTeamwork", type: .dynamic, targets: ["MyTeamwork"]),
-        .library(name: "MyTeamworkStatic", type: .static, targets: ["MyTeamwork"])
+        .library(name: "MyTeamwork", targets: ["MyTeamwork"])
     ],
     dependencies: [
         .package(url: "git@github.com:janodevorg/APIClient.git", from: "1.0.0"),
